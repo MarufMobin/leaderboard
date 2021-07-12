@@ -81,6 +81,7 @@ main{
     margin-top: 35px;
     padding: 33px 28px 10px;
     border-radius: 5px;
+    margin: 36px 0px 20px;
 }
 .second-section h2{
     color: #562EFF;
@@ -143,3 +144,77 @@ main{
     margin-left: 5px;
 }
  /* Second section css code end here  */
+ /* lates-section code start here */
+ .lates-section{
+    width: 1170px;
+    background-color: #fff;
+    margin-top: 35px;
+    padding: 33px 28px 40px;
+    border-radius: 5px;
+    margin: 0px 0px 20px;
+ }
+.lates-section .lates-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    grid-column-gap: 24px;
+}
+.lates-container .inner-container{
+    box-shadow: 3px 4px 10px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.lates-container .inner-container img{
+    width: 224px;
+    height: 104px;
+}
+.lates-container .inner-container h2{
+    color: #1E1E1E;
+    font-size: 20px;
+    line-height:23px;
+    width: 86%;
+    margin: 14px 0px;
+}
+.lates-container .inner-container .fa-star{
+    font-size: 20px;
+    color: #FFC014;
+}
+.lates-container .inner-container .fa-star.half{
+    font-size: 20px;
+    color: #AEAEAE;
+    margin-right: 10px;
+}
+.lates-section > h2{
+    color: #562EFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-top: 3px;
+    margin-bottom: 30px;
+}
+.inner-container > h4 {
+    color: #ED6B4F;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+.time{
+    color: #A2A2A2;
+    margin-right: 10px;
+}
+.duration{
+    background: #FFE4E8;
+    opacity: .7;
+    padding: 6px 12px;
+    border-radius: 30px;
+    font-size: 14px;
+    color: red;
+}
+.duration .fa-clock-o {
+    font-size: 18px;
+    font-weight: 500;
+    color: red;
+}
+
+ /* lates-section code end here */
